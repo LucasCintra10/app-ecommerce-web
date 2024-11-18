@@ -43,10 +43,10 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Newsletter</h3>
             <p className="mb-4">Subscribe to our newsletter for the latest updates and offers.</p>
             <form className="flex">
-              <Input type="email" placeholder="Your email" className="flex-grow bg-white text-black p-1 rounded-md" />
+              <Input type="email" placeholder="Your email" className="flex-grow bg-white text-black p-1 rounded-md outline-none" />
               <Button
                 type="submit"
-                className="ml-2 bg-white text-blue-600 hover:bg-blue-100 rounded-md flex items-center p-1"
+                className="ml-2 bg-white text-blue-600  rounded-md flex items-center p-1 transform transition-transform duration-300 hover:scale-105"
               >
                 Subscribe
               </Button>
