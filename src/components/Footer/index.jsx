@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">About Us</h3>
             <p>
-              Shop Name is your one-stop destination for all your shopping needs. We offer a wide range of products at
+              UniFacef Store is your one-stop destination for all your shopping needs. We offer a wide range of products at
               competitive prices.
             </p>
           </div>

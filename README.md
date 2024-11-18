@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **Unifacef Store**
 
-## Getting Started
+## **Descrição do Projeto**  
+O **Unifacef Store** é uma aplicação de e-commerce desenvolvida como parte de um projeto acadêmico. O sistema abrange funcionalidades como gestão de produtos, exibição de uma vitrine virtual e simulação de operações básicas de uma loja online.  
 
-First, run the development server:
+O projeto foi projetado para ser modular e eficiente, dividindo-se em:  
+- **Backend**: um sistema robusto para gerenciamento de dados e lógica de negócios, exposto por uma API RESTful.  
+- **Frontend**: uma interface moderna e responsiva que proporciona uma experiência agradável aos usuários.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Para tornar o sistema acessível e funcional, foram utilizados serviços de hospedagem modernos:  
+- **Frontend**: Hospedado na **Vercel**, garantindo desempenho e alta disponibilidade.  
+- **API**: Implantada na **Render**, proporcionando estabilidade e facilidade de integração com o frontend.  
+- **Banco de Dados**: Gerenciado na **Neon**, uma solução eficiente e escalável para o PostgreSQL.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+--- 
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## **Tecnologias Utilizadas**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **Backend**
+- **Node.js**  
+- **Express.js**  
+- **PostgreSQL**  
 
-## Learn More
+### **Frontend**
+- **Next.js**  
+- **Tailwind CSS**  
+- **Bibliotecas Adicionais**:  
+  - `react-query`: para gerenciamento de estado assíncrono.  
+  - `framer-motion`: para animações interativas.  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## **Entregas do 1º Bimestre**  
+Todas as entregas foram concluídas no primeiro bimestre.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### **1. Setup do Back-End**  
+- Configuração do ambiente local para o backend.  
+- Estruturação inicial do projeto utilizando Node.js e Express.js.  
 
-## Deploy on Vercel
+### **2. Criação do Middleware**  
+- Desenvolvimento de um middleware para interceptar e validar requisições via API.  
+- Garantia de segurança e consistência nas operações do sistema.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### **3. Teste de API com Insomnia**  
+- Implementação e teste de endpoints RESTful no backend.  
+- Verificação de funcionalidades essenciais como login, registro e consulta de produtos.  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### **4. Criação do Banco de Dados**  
+- Configuração e modelagem do banco de dados PostgreSQL.  
+- Testes de conexões e consultas para garantir a integridade dos dados.  
+
+### **5. CRUD Completo**  
+- Desenvolvimento de rotas para criar, ler, atualizar e deletar registros no banco de dados via API.  
+- Integração com as tabelas de produtos e usuários.  
+
+---
+
+## **Entregas do 2º Bimestre**  
+As entregas realizadas até agora incluem funcionalidades essenciais no frontend.  
+
+### **1. Desenvolvimento da Homepage**  
+- Criação de uma homepage responsiva e atraente utilizando Tailwind CSS.  
+- Exibição de produtos com animações interativas feitas com `framer-motion`.  
+
+### **2. Implementação do React Query**  
+- Utilização do `react-query` para gerenciar o estado e as requisições à API.  
+- Garantia de sincronização eficiente entre os dados do frontend e do backend.  
+
+### **3. Implementação do Roteamento com Router do Next.js**  
+- Configuração do roteamento dinâmico para navegação entre páginas.  
+- Organização da aplicação para suportar futuras implementações de funcionalidades.  
+
+---
